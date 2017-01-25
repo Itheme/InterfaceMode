@@ -16,7 +16,7 @@ Pod::Spec.new do |s|
   #
 
   s.name         = "InterfaceMode"
-  s.version      = "0.1"
+  s.version      = "0.2"
   s.summary      = "Returns current interface mode (like iPhone/iPad, retina). Could be overridden for UnitTests (iOS)"
 
   s.description  = <<-DESC
@@ -73,7 +73,7 @@ Pod::Spec.new do |s|
   #  Supports git, hg, bzr, svn and HTTP.
   #
 
-  s.source       = { :git => "https://github.com/Itheme/InterfaceMode.git", :tag => "0.1" }
+  s.source       = { :git => "https://github.com/Itheme/InterfaceMode.git", :tag => "0.2" }
 
 
   # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
