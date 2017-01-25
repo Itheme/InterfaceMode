@@ -21,8 +21,6 @@
 + (BOOL)iPhone5;
 + (BOOL)isRetina;
 
-+ (UIColor *)barTintColor;
-
 + (void)overrideWith:(InterfaceMode *)interfaceMode;
 + (BOOL) isRunningTests;
 

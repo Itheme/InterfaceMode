@@ -7,7 +7,6 @@
 //
 
 #import "InterfaceMode.h"
-#import "UIColor+Extensions.h"
 
 @implementation InterfaceMode
 
@@ -35,10 +34,6 @@ static InterfaceMode *interface = nil;
 - (BOOL) isIPhoneFullScreen
 {
     return UI_USER_INTERFACE_IDIOM() == UIUserInterfaceIdiomPhone;
-}
-
-+ (UIColor *)barTintColor {
-    return [[self instance] isIPadFullScreen] ? [UIColor navigationBarColor] : [UIColor menuNavigationBarColor];
 }
 
 + (BOOL)iPadFullScreen
